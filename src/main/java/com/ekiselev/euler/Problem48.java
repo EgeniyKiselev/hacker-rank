@@ -108,16 +108,8 @@ public class Problem48 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         long N = sc.nextLong();
-//        Stopwatch sw = Stopwatch.createStarted();
         Solution sol = new Solution();
-//        for (int i = 100000 / 2; i <= 2000000; i += 100000) {
-//            System.out.println(i + "L = " + sol.solver(i) + "L");
-//        }
         System.out.println(sol.solver(N));
-//        System.out.println(sw.toString());
 
-//        sw = Stopwatch.createStarted();
-//        System.out.println(sol.solver2(N));
-//        System.out.println(sw.toString());
     }
 }
